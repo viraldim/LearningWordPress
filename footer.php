@@ -1,6 +1,6 @@
-        <footer class="site-footer">
+        <footer class="navbar-fixed-bottom">
 
-            <nav class="site-nav">
+            <nav class="navbar">
                 <?php
 
                 $args = array(
@@ -18,5 +18,6 @@
 
     </div><!-- container -->
 <?php wp_footer(); ?>
+        <script src="<?php bloginfo('template_url');?>"></script>
 </body>
 </html>

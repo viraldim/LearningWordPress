@@ -21,7 +21,7 @@
 
 
 
-        <nav class="site-nav">
+        <nav class="navbar navbar-inverse navbar-static-top">
             <?php
 
             $args = array(
